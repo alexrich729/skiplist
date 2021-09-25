@@ -2,6 +2,7 @@
 Generic skiplist implementation, provides O(logn) operations without problems of rebalancing a tree.
 
 example usage:
+```
         SkipList sl = new SkipList();
         sl.insert(13);
         System.out.println(sl);
@@ -20,3 +21,4 @@ example usage:
         sl.delete(1000);
         System.out.println(sl);
         //prints: 13,
+```
